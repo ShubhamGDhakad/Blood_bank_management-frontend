@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid red;
+}
+#logo{
+    border: 1px solid red;
+    border-radius: 50%;
+}
+nav{
+    box-shadow: 5px 5px 5px 5px #e40a0a88;
+    border-top: 1px solid red;
+}
+#collapsibleNavbar{
+    margin-top: 20px;
+
+    
+}
+nav div ul li a{
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+
+}
+#Looking_for{
+    border: 2px solid red;
+    border-bottom: 3px solid black;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    border: 2px solid red;
+    border-bottom: 3px solid black;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+#footer{
+    padding: 15px;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    text-decoration: underline;
+}
+#last-links{
+    font-size: 15px;
+}
+#upper-arrow{
+    display: flex;
+    justify-content: center;
+}
+#arrow{
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    padding-bottom: 10px;
+    justify-content: center;
+    display: flex;
+
+}
+#arrow-svg{
+    font-weight: 600;
+}
+#search_blood_title{
+    background-color: darkred;
+    padding: 5px;
+}
+#search_blood_bank_directry{
+    border: 1px solid black;
+}
+#btn_search{
+    display: flex;
+    justify-content: center;
+}
+#Search_btn{
+    color: white;
+    background-color: darkred;
+    align-items: center;
+    text-decoration: none;
+}
+#thead{
+    background-color: darkred;
+}

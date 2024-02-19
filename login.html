@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User login</title>
+     <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+    <section>
+
+        <nav class="navbar navbar-expand-sm bg-white navbar-white">
+            <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="blood bank logo2jpeg.jpeg" id="logo" alt=""width='90px' height="90px">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a id="About" class="nav-link" href="index.html" >About us</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#">Looking for Blood</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="Blood_availability.html">Blood Availability</a></li>
+                          <li><a class="dropdown-item" href="Blood_bank_directary.html">Blood bank directary</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" id="Donate" data-bs-toggle="dropdown" href="#">Want to donate Blood</a>
+                        <ul class="dropdown-menu">
+                        
+                          <li><a class="dropdown-item" href="Donar_Register_form.html">Register for Donate Blood</a></li>             
+                          <li><a class="dropdown-item" href="Learn_about_bd.html">About Blood donation</a></li>
+                        </ul>
+                      </li>  
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="login_nav" href="#" role="button" data-bs-toggle="dropdown">Blood bank login/register</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="login.html">New register/Login user</a></li>
+                          <li><a class="dropdown-item" href="#">Add your Blood bank</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+    </section>
+
+    <section>
+
+<div class="container-fluid " id="login_section">
+
+  <div id="card" class="card" style="width:500px">
+  
+    <div class="card-body">
+      <h4 class="card-title text-danger text-center text-decoration-underline">Blood bank login/Donar log-in</h4>
+
+      <div class="container row p-3" id="login_form">
+
+        <div class="col-md">
+
+          <label class="form-label" for="email">Email/Mobile no.</label>
+          <input class="form-control" type="text">
+
+        </div>
+
+        <div class="col-md">
+
+          <label class="form-label" for="email">Password</label>
+          <input class="form-control" type="password">
+
+        </div>
+
+        <div id="login_btn">
+
+          <button class="btn btn-danger mt-3">log-in</button>
+          <h5 class="mt-2 text-danger p-2">or</h5>
+          <a href="Donar_Register_form.html" class="btn btn-danger mt-3">/Register</a>
+          
+             </div>
+
+
+      </div>
+     
+    </div>
+
+  </div>
+
+</div>
+
+    </section>
+
+
+    
+<section class="bg-black">
+
+    <div id="footer" class="container row">
+
+        <div class="col-md">
+      
+      <h5 class="h5 text-white text-center">Looking for Blood</h5>
+      <br>
+      
+      <h6 class="h6 text-white text-center"><a href="#">Blood availability</a></h6>
+      <h6 class="h6 text-white text-center"><a href="#">Blood bank Directary</a></h6>
+      
+      
+        </div>
+        <div class="col-md">
+      
+          <h5 class="h5 text-white text-center">Want to Danate Blood</h5>
+          <br>
+      
+          <h6 class="h6 text-white text-center"><a href="#">Blood donation camps</a></h6>
+          <h6 class="h6 text-white text-center"><a href="#">Donar Login</a></h6>
+          <h6 class="h6 text-white text-center"><a href="#">About Blood donation</a></h6>
+      
+        </div>
+        <div class="col-md">
+      
+          <h5 class="h5 text-white text-center">Blood Bank Login</h5>
+          <br>
+      
+          <h6 class="h6 text-white text-center"><a href="#">Blood bank finder Login</a></h6>
+          <h6 class="h6 text-white text-center"><a href="#">Add your Blood bank</a></h6>
+      
+        </div>
+        <div class="col-md">
+      
+          <h5 class="h5 text-white text-center">About us</h5>
+          <br>
+      
+          <h6 class="h6 text-white text-center"><a href="#">About Blood bank finder </a></h6>
+          <h6 class="h6 text-white text-center"><a href="#">Notifications</a></h6>
+          <h6 class="h6 text-white text-center"><a href="#">Blood bank finder FAQs</a></h6>
+          <h6 class="h6 text-white text-center"><a href="#">Gallery</a></h6>
+          <h6 class="h6 text-white text-center"><a href="#">Video Gallery</a></h6>
+          <h6 class="h6 text-white text-center"><a href="#">Contact us</a></h6>
+          <h6 class="h6 text-white text-center"><a href="#">Mobile App</a></h6>
+      
+        </div>
+      
+        <div id="devloper">
+      
+      <h6 class="h6 text-white text-end p-3 mt-5"> &#174; Design and devloped by Shubham Dhakad and Shivam Chouhan</h6>
+      
+        </div>
+        <div class="text-center" id="last-links">
+      
+      <a href="#">Terms & conditions|</a>
+      <a href="#">Privacy policy|</a>
+      <a href="#">Accesibility statement|</a>
+      <span class="text-white">Last update: <span id="date-2"></span>|</span>
+      <a href="#">Site Map</a>
+      
+        </div>
+      </div>
+      
+      <div class="" id="upper-arrow">
+      
+      <div class="" id="arrow">
+        <a href="#">
+          <svg id="arrow-svg" xmlns="http://www.w3.org/2000/svg" width="50" height="45" viewBox="0 0 24 24" style="fill: rgba(255, 0, 0, 1);transform: ;msFilter:;"><path d="M11 8.414V18h2V8.414l4.293 4.293 1.414-1.414L12 4.586l-6.707 6.707 1.414 1.414z"></path></svg>
+        </a>
+      </div>
+      
+      </div>
+
+</section>
+
+</body>
+</html>

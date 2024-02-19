@@ -1,0 +1,306 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid red;
+}
+#logo{
+    border: 1px solid red;
+    border-radius: 50%;
+}
+nav{
+    box-shadow: 5px 5px 5px 5px #e40a0a88;
+    border-top: 1px solid red;
+}
+#collapsibleNavbar{
+    margin-top: 20px;
+
+    
+}
+nav div ul li a{
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+
+}
+#About{
+    border: 2px solid red;
+    border-bottom: 3px solid black;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    border: 2px solid red;
+    border-bottom: 3px solid black;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+#About-us{
+    background:url('WhatsApp\ Image\ 2023-10-16\ at\ 14.54.10_33cada87.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1.5;
+    display: flex;
+    justify-content: center;
+}
+#Updates{
+    padding: 15px;
+}
+#A-B-camp{
+    display: flex;
+    
+    
+
+}
+#A-camp{
+    width: 300px;
+    height: 130px;
+    background-color: mediumseagreen;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: px;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+    margin-top: 25px;border: 1px solid black;
+}
+#b-unit-collected{
+    width: 300px;
+    height: 130px;
+    background-color: dodgerblue;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: px;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 5px;border: 1px solid black;
+    margin-top: 25px;
+}
+h6{
+    color: red;
+    margin-left: px;
+    margin-top: 25px;
+}
+#A-B-camp-y{
+    display: flex;
+    margin-top: 25px;
+}
+#A-camp-y{
+    width: 300px;
+    height: 130px;
+    background-color: mediumseagreen;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: px;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+    margin-top: 25px;border: 1px solid black;
+}
+#b-unit-collected-y{
+    width: 300px;
+    height: 130px;
+    background-color: dodgerblue;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: px;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 5px;border: 1px solid black;
+    margin-top: 25px;
+}
+#main-links{
+    width: 100%;
+    background-color: rgba(197, 186, 186, 0.349);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+#main-links-bb{
+    align-content: center;
+    align-items: center;
+}
+#blood-availability-search{
+    width: 200px;
+    height: 160px;
+    background-color: darkred;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 25px;
+}
+#Blood-bank-directary{
+    width: 200px;
+    height: 160px;
+    background-color: dodgerblue;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 25px;
+}
+#Blood-donation-camps{
+    width: 200px;
+    height: 160px;
+    background-color:orange;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 25px;
+}
+#donar-login{
+    width: 200px;
+    height: 160px;
+    background-color:red;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 25px;
+}
+#Register-vol-blood-bank{
+    width: 200px;
+    height: 160px;
+    background-color:darkgreen;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 25px;
+}
+.h4{
+    color: #fff;
+    font-weight: 600;
+    padding: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+svg{
+    margin: 5px;
+    padding: 3px;
+}
+h2{
+    font-weight: 500;
+    padding: 5px;
+    text-decoration: underline;
+}
+#db-img{
+    
+}
+h5{
+    font-weight: 500;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    padding: 5px;
+}
+#Learn-about-bd{
+    box-shadow: 0 0 5px silver;
+}
+#Types-of-donation-section{
+    padding: 10px;
+    box-shadow: 0 0 5px silver;
+}
+#types-of-donation{
+    border: 0.5px solid grey;
+    background-color: silver;
+    box-shadow: 0 0 5px silver;
+
+}
+#btn-links{
+    display: flex;
+    padding: 5px;
+} 
+#btn-links button{
+    padding: 5px;
+    border: 1px solid black;
+
+}
+#btn-links button:hover{
+    background-color: grey;
+}
+#ppp-detail{
+    border-top: 1px solid grey;
+}
+#ppp-detail .col-md{
+    border-right: 1px solid grey;
+} 
+#btn_redblood{
+    background-color:white;
+}
+#btn-donATE{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: 500;
+    padding: 15px;
+}
+#hr{
+    color: silver;
+    height: 2px;
+}
+#icon-1{
+    display: flex;
+    justify-content: center;
+}
+#icon-1 svg{
+    background-color: red;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+#footer{
+    padding: 15px;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    text-decoration: underline;
+}
+#last-links{
+    font-size: 15px;
+}
+#upper-arrow{
+    display: flex;
+    justify-content: center;
+}
+#arrow{
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    padding-bottom: 10px;
+    justify-content: center;
+    display: flex;
+
+}
+#arrow-svg{
+    font-weight: 600;
+}
+#nearest_bd{
+    text-decoration: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    padding: 5px;
+}
